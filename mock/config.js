@@ -3,7 +3,7 @@ const path = require('path')
 const config = {
     '/api/json/data': {
         data: {
-            result: 'mocked',
+            result: 'mocked data',
         },
     },
     '/api/json/path': {
@@ -11,7 +11,7 @@ const config = {
     },
     '/api/mockjs/data': {
         data: {
-            'result|3': '*',
+            'result|10': '*',
         },
     },
     '/api/mockjs/path': {

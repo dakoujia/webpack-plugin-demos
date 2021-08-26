@@ -26,6 +26,7 @@ module.exports = {
             config,
             port: 5000,
         }),
+        // 内置插件
         new HtmlWebpackPlugin({
             title: 'Development',
         }),

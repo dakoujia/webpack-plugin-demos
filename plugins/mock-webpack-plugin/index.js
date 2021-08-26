@@ -5,8 +5,12 @@ class MockWebpackPlugin {
         this.config = config
         this.port = port
     }
-    apply() {
+    apply(compiler) {
         server({ config: this.config, port: this.port })
+        // 注册一个webpack插件
+        compiler.plugin('emit', (compilation, callback) => {
+            callback()
+        })
     }
 }
 
