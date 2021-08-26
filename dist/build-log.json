@@ -1,1 +1,20 @@
-{"build_time":"2021-07-04 20:28:20","build_type":"local","git":{"currentBranch":"","build_user":{"name":"zhulm","email":"liangming.zhu@foxmail.com"}}}
+{
+    "build_time": "2021-08-25 15:48:19",
+    "build_type": "local",
+    "git": {
+        "last_commit": {
+            "hash": "f94253ba4af5727f1b9bd48f9b0b225723d597a4",
+            "date": "2021-07-04T21:19:44+08:00",
+            "message": "docs(read me): README.md",
+            "refs": "HEAD -> main, origin/main, origin/HEAD",
+            "body": "提交人:朱良明\n",
+            "author_name": "zhulm",
+            "author_email": "liangming.zhu@foxmail.com"
+        },
+        "currentBranch": "main",
+        "build_user": {
+            "name": "10669651",
+            "email": "'liangming.zhu@foxmail.com'"
+        }
+    }
+}

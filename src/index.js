@@ -1,1 +1,7 @@
-console.log('hello webpack');
+console.log('hello webpack')
+
+import axios from 'axios'
+
+axios.get('/api/json/data').then(res => {
+    console.log(res.data)
+})
